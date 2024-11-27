@@ -1,0 +1,6 @@
+<div class="organism">
+  <h1 @text="title"> </h1>
+	<m-molecule title="Molecule 1"></m-molecule>
+	<m-molecule title="Molecule 2"></m-molecule>
+	<m-molecule title="Molecule 3"></m-molecule>
+</div>

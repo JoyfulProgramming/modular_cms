@@ -1,0 +1,17 @@
+{
+  "name": "modular_cms",
+  "version": "1.0.0",
+  "author": "John Gallagher <john@synapticmishap.co.uk>",
+  "license": "MIT",
+  "type": "module",
+  "browserslist": "defaults, not ie <= 11",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "tailwindcss": "^3.4.14"
+  },
+  "scripts": {
+    "serve": "rm -rf _site && npx @11ty/eleventy --serve --quiet & npx tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --watch",
+    "build": "rm -rf _site && ELEVENTY_ENV=production npx @11ty/eleventy && npx tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --minify"
+  }
+}

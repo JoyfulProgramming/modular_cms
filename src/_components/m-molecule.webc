@@ -1,0 +1,8 @@
+<div class="molecule">
+
+  <h2 @text="title"></h2>
+
+  <a-atom title="Atom 1"></a-atom>
+  <a-atom title="Atom 2"></a-atom>
+  <a-atom title="Atom 3"></a-atom>
+</div>
