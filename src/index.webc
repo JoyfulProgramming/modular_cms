@@ -5,6 +5,9 @@ blocks:
     type: HeroInformationalCtaWithScreenshot
     heading: A hackable **text editor** for the 21st Century
     subheading: Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value.
+    cta:
+      text: Download
+      url: https://flowbite.com
     logos:
       - name: airbnb
         type: LogoInline
@@ -20,6 +23,11 @@ blocks:
         type: LogoInline
   - title: Image with CTA button
     type: ImageWithCtaButton
+    heading: Let's create more tools and ideas that brings us together.
+    subheading: Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.
+    cta:
+      text: Get Started
+      url: https://flowbite.com
   - title: Testimonial cards
     type: TestimonialCards
   - title: Pricing cards
