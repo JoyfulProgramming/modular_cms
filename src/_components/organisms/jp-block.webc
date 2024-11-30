@@ -1,10 +1,15 @@
-<script webc:type="js">
-  function processBlock(block, webc) {
-    const kebabCase = (str) => str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
-    
-    const componentName = `fb-${kebabCase(block.type)}`;
-    return `<${componentName} ${webc.renderAttributes(block)}></${componentName}>`;
-  }
+<x webc:if="webc.attributes.block.type === 'HeroInformationalCtaWithScreenshot'">
+  <fb-hero-informational-cta-with-screenshot :heading="webc.attributes.block.heading" :subheading="webc.attributes.block.subheading" :logos="webc.attributes.block.logos"></fb-hero-informational-cta-with-screenshot>
+</x>
 
-  processBlock(webc.attributes.block, webc)
-</script>
+<x webc:if="webc.attributes.block.type === 'ImageWithCtaButton'">
+  <fb-image-with-cta-button></fb-image-with-cta-button>
+</x>
+
+<x webc:if="webc.attributes.block.type === 'TestimonialCards'">
+  <fb-testimonial-cards></fb-testimonial-cards>
+</x>
+
+<x webc:if="webc.attributes.block.type === 'PricingCards'">
+  <fb-pricing-cards></fb-pricing-cards>
+</x>

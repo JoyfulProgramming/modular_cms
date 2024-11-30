@@ -5,6 +5,19 @@ blocks:
     type: HeroInformationalCtaWithScreenshot
     heading: A hackable **text editor** for the 21st Century
     subheading: Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value.
+    logos:
+      - name: airbnb
+        type: LogoInline
+      - name: google
+        type: LogoInline
+      - name: nike
+        type: LogoInline
+      - name: uber
+        type: LogoInline
+      - name: stripe
+        type: LogoInline
+      - name: mashable
+        type: LogoInline
   - title: Image with CTA button
     type: ImageWithCtaButton
   - title: Testimonial cards
