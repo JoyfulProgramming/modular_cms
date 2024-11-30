@@ -3,6 +3,8 @@ layout: base.webc
 blocks:
   - title: Hero
     type: HeroInformationalCtaWithScreenshot
+    heading: A hackable **text editor** for the 21st Century
+    subheading: Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value.
   - title: Image with CTA button
     type: ImageWithCtaButton
   - title: Testimonial cards
