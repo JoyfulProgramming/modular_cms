@@ -1,0 +1,10 @@
+<script webc:type="js">
+  function processBlock(block, webc) {
+    const kebabCase = (str) => str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+    
+    const componentName = `fb-${kebabCase(block.type)}`;
+    return `<${componentName} ${webc.renderAttributes(block)}></${componentName}>`;
+  }
+
+  processBlock(webc.attributes.block, webc)
+</script>

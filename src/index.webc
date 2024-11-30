@@ -1,14 +1,15 @@
 ---
 layout: base.webc
+blocks:
+  - title: Hero
+    type: HeroInformationalCtaWithScreenshot
+  - title: Image with CTA button
+    type: ImageWithCtaButton
+  - title: Testimonial cards
+    type: TestimonialCards
+  - title: Pricing cards
+    type: PricingCards
 ---
-<fb-hero-informational-cta-with-screenshot>
-</fb-hero-informational-cta-with-screenshot>
 
-<fb-image-with-cta-button>
-</fb-image-with-cta-button>
-
-<fb-testimonial-cards>
-</fb-testimonial-cards>
-
-<fb-pricing-cards>
-</fb-pricing-cards>
+<jp-block :block="block" webc:for="block of blocks">
+</jp-block>
