@@ -1,5 +1,14 @@
 ---
 layout: base.webc
 ---
-<o-organism title="Organism"></o-organism>
-<a-card title="This is a card"></a-card>
+<fb-hero-informational-cta-with-screenshot>
+</fb-hero-informational-cta-with-screenshot>
+
+<fb-image-with-cta-button>
+</fb-image-with-cta-button>
+
+<fb-testimonial-cards>
+</fb-testimonial-cards>
+
+<fb-pricing-cards>
+</fb-pricing-cards>

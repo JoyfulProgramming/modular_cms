@@ -3,26 +3,49 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title @text="title || site.title"></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" :content="description || site.description">
-	<link rel="stylesheet" href="css/base.css">
+
+	<title @text="title || site.title"></title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap"
+		rel="stylesheet" webc:keep>
+	<link rel="stylesheet" href="https://flowbite.com/marketing-ui/demo/app.css" webc:keep>
+	<link rel="apple-touch-icon" sizes="180x180" href="https://flowbite.com/marketing-ui/demo/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://flowbite.com/marketing-ui/demo/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://flowbite.com/marketing-ui/demo/favicon-16x16.png">
+	<link rel="icon" type="image/png" href="/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@">
+	<meta name="twitter:creator" content="@">
+	<meta name="twitter:title" content="Tailwind CSS Open-source Landing Page - Flowbite">
+	<meta name="twitter:description"
+		content="Get started with a collection of over 53 page templates based on Tailwind CSS for Marketing UI purposes including landing pages, contact pages, about pages, and more">
+	<meta name="twitter:image" content="https://flowbite.com/marketing-ui/demo/images/og-image.jpg">
+	<!-- Facebook -->
+	<meta property="og:url" content="https://flowbite.com/marketing-ui/demo/landing/open-source/">
+	<meta property="og:title" content="Tailwind CSS Open-source Landing Page - Flowbite">
+	<meta property="og:description"
+		content="Get started with a collection of over 53 page templates based on Tailwind CSS for Marketing UI purposes including landing pages, contact pages, about pages, and more">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="https://flowbite.com/marketing-ui/demo/images/og-image.jpg">
+	<meta property="og:image:type" content="image/png">
+	<link rel="stylesheet" href="styles.css" webc:keep>
 	<style webc:keep @raw="getBundle('css')"></style>
 </head>
 
 <body>
 	<header>
-		<nav>
-			<a href="/">Home</a>
-		</nav>
+		<fb-nav></fb-nav>
 	</header>
-
 	<main id="skip" @raw="content">
 	</main>
-
-	<footer>
-		<span @text="`©&nbsp;${(new Date()).getFullYear()}`"></span>
-	</footer>
+	<fb-pre-footer-with-cta></fb-pre-footer-with-cta>
 	<script webc:type="js">`<!-- Build timestamp: ${Date.now()} -->`</script>
 </body>
 
