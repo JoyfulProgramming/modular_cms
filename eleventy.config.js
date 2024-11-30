@@ -13,7 +13,7 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.addFilter("markdown", function (content) {
     const unsafeHtml = new MarkdownIt({ html: true }).render(content || "");
-    return DOMPurify.sanitize(unsafeHtml, { ALLOWED_TAGS: ['span', 'strong', 'em'] });
+    return DOMPurify.sanitize(unsafeHtml, { ALLOWED_TAGS: ['p','span', 'strong', 'em'] });
   });
 
   return {
