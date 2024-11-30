@@ -1,5 +1,5 @@
 ---
-layout: base.webc
+layout: page.webc
 blocks:
   - title: Hero
     type: HeroInformationalCtaWithScreenshot
@@ -100,5 +100,4 @@ blocks:
           url: https://flowbite.com
 ---
 
-<jp-block :block="block" webc:for="block of blocks">
-</jp-block>
+# Hello
