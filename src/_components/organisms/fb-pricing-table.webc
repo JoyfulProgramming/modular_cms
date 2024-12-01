@@ -1,10 +1,13 @@
 <script webc:type="js" webc:setup>
-  const productsToShowInTable = this.blocks.filter((block) => block.library === 'FlowBite' && block.type === 'PricingTable')[0].products;
   const productsFromStripe = (await stripe().products.list()).data;
-  const plans = productsFromStripe.filter(
+  const heading = "Pricing Plans";
+  const subheading = "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.";
+</script>
+
+<script webc:type="js">
+  const plans = webc.attributes.object.products.map(
     (product) => {
-      const idsToShow = productsToShowInTable.map((p) => p.id)
-      return idsToShow.includes(product.id)
+      return productsFromStripe.filter((p) => p.id === product.id)[0]
     }
   ).map(
     (p) => {
@@ -21,13 +24,13 @@
     }
   )
 
-  const heading = "Pricing Plans";
-  const subheading = "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.";
   const table = {
     plans: plans,
     heading: heading,
     subheading: subheading
   };
+  webc.attributes.table = table;
+  `<fb-pricing-cards :table="table"></fb-pricing-cards>`
 </script>
 
-<fb-pricing-cards :table="table"></fb-pricing-cards>
+

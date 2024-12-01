@@ -18,8 +18,8 @@ blocks:
   - type: PricingTable
     library: FlowBite
     products:
-      - id: prod_QUuRyxMMrbdtU8
       - id: prod_QYHXbnVYbPh22l
+      - id: prod_QUuRyxMMrbdtU8
       - id: prod_QoTFxmHghfUeRo
   - type: PricingTable
     library: Stripe
