@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .with-emphasised-text strong {
-  @apply text-primary-600 dark:text-primary-500;
+  @apply text-primary-600;
 }
