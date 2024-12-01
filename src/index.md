@@ -10,17 +10,11 @@ blocks:
       url: https://flowbite.com
     logos:
       - name: airbnb
-        type: LogoInline
       - name: google
-        type: LogoInline
       - name: nike
-        type: LogoInline
       - name: uber
-        type: LogoInline
       - name: stripe
-        type: LogoInline
       - name: mashable
-        type: LogoInline
   - title: Image with CTA button
     type: ImageWithCtaButton
     heading: Let's create more tools and ideas that brings us together.
@@ -99,5 +93,3 @@ blocks:
           text: Get started
           url: https://flowbite.com
 ---
-
-# Hello

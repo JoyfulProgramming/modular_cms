@@ -4,5 +4,3 @@ layout: base.webc
 
 <jp-block :block="block" webc:for="block of blocks">
 </jp-block>
-
-<x 
