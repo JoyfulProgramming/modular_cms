@@ -16,6 +16,12 @@ blocks:
       - name: stripe
       - name: mashable
   - type: PricingTable
+    library: FlowBite
+    products:
+      - id: prod_QUuRyxMMrbdtU8
+      - id: prod_QYHXbnVYbPh22l
+      - id: prod_QoTFxmHghfUeRo
+  - type: PricingTable
     library: Stripe
     id: prctbl_1PhB1LKUdRAKmTxkuNZPXxYY
   - title: Image with CTA button
@@ -55,7 +61,8 @@ blocks:
           title: CTO at Google
           image_src: https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png
   - title: Pricing cards
-    type: PricingCards
+    type: PricingCards_
+    local: table
     heading: Designed for business teams like yours
     subheading: Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
     plans:

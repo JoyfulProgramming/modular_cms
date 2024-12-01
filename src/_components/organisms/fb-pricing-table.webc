@@ -1,24 +1,29 @@
-<script webc:type="11ty">
-  const object = {
-    plans: [
-      {
-        name: "Starter Test",
-        subheading: "Best option for personal use & for your next project.",
-        price: 29,
-        features: [
-          "Individual configuration",
-          "No setup, or hidden fees", 
-          "Team size: **1 developer**",
-          "Premium support: **6 months**",
-          "Free updates: **6 months**"
-        ],
-        cta: {
-          text: "Get started",
-          url: "https://flowbite.com"
-        }
+<script webc:type="js" webc:setup>
+  const heading = "Pricing Plans";
+  const subheading = "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.";
+  const plans = [
+    {
+      name: "Starter Test",
+      subheading: "Best option for personal use & for your next project.",
+      price: 29,
+      features: [
+        "Individual configuration",
+        "No setup, or hidden fees",
+        "Team size: **1 developer**",
+        "Premium support: **6 months**",
+        "Free updates: **6 months**"
+      ],
+      cta: {
+        text: "Get started",
+        url: "https://flowbite.com"
       }
-    ],
-  };
-
-  `<fb-pricing-cards></fb-pricing-cards>`;
+    }
+  ];
+  const table = {
+    plans: plans,
+    heading: heading,
+    subheading: subheading
+  }
 </script>
+
+<fb-pricing-cards :table="table"></fb-pricing-cards>
