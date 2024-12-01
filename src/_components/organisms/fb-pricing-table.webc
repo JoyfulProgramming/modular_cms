@@ -1,29 +1,33 @@
 <script webc:type="js" webc:setup>
-  const heading = "Pricing Plans";
-  const subheading = "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.";
-  const plans = [
-    {
-      name: "Starter Test",
-      subheading: "Best option for personal use & for your next project.",
-      price: 29,
-      features: [
-        "Individual configuration",
-        "No setup, or hidden fees",
-        "Team size: **1 developer**",
-        "Premium support: **6 months**",
-        "Free updates: **6 months**"
-      ],
-      cta: {
-        text: "Get started",
-        url: "https://flowbite.com"
+  const productsToShowInTable = this.blocks.filter((block) => block.library === 'FlowBite' && block.type === 'PricingTable')[0].products;
+  const productsFromStripe = (await stripe().products.list()).data;
+  const plans = productsFromStripe.filter(
+    (product) => {
+      const idsToShow = productsToShowInTable.map((p) => p.id)
+      return idsToShow.includes(product.id)
+    }
+  ).map(
+    (p) => {
+      return {
+        name: p.name, 
+        subheading: p.description,
+        price: 29,
+        features: p.marketing_features.map((f) => f.name),
+        cta: {
+          text: "Get started",
+          url: "https://flowbite.com"
+        }
       }
     }
-  ];
+  )
+
+  const heading = "Pricing Plans";
+  const subheading = "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.";
   const table = {
     plans: plans,
     heading: heading,
     subheading: subheading
-  }
+  };
 </script>
 
 <fb-pricing-cards :table="table"></fb-pricing-cards>
