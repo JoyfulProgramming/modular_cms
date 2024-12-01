@@ -13,9 +13,10 @@ export default function (eleventyConfig) {
   eleventyConfig.setServerOptions({
     watch: ['_site/**/*.css'],
   });
-  eleventyConfig.addFilter("markdown", function (content) {
+
+  eleventyConfig.addFilter("markdown", function (content, allowedTags = []) {
     const unsafeHtml = new MarkdownIt({ html: true }).render(content || "");
-    return DOMPurify.sanitize(unsafeHtml, { ALLOWED_TAGS: ['span', 'strong', 'em'] });
+    return DOMPurify.sanitize(unsafeHtml, { ALLOWED_TAGS: ['span', 'strong', 'em', ...allowedTags] });
   });
   eleventyConfig.addFilter("stripe", function () {
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);

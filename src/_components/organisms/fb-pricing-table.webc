@@ -1,5 +1,7 @@
 <script webc:type="js" webc:setup>
-  const productsFromStripe = (await stripe().products.list()).data;
+  const productsFromStripe = (await stripe().products.list({
+    expand: ['data.default_price']
+  })).data;
 </script>
 
 <script webc:type="js">
@@ -7,6 +9,7 @@
   const plans = webc.attributes.table.products.map(
     (product) => {
       const stripeProduct = productsFromStripe.filter((p) => p.id === product.id)[0];
+      this.log(stripeProduct.default_price)
       return {
         ...stripeProduct,
         payment_link_id: product.payment_link_id
@@ -15,9 +18,9 @@
   ).map(
     (p) => {
       return {
-        name: p.name, 
-        subheading: p.description,
-        price: 29,
+        name: p.metadata.name, 
+        subheading: p.metadata.description,
+        price: p.default_price.unit_amount / 100,
         features: p.marketing_features.map((f) => f.name),
         cta: {
           text: "Get started",

@@ -1,25 +1,34 @@
 ---
 layout: page.webc
 blocks: 
-  - title: Hero
-    type: HeroInformationalCtaWithScreenshot
+  - type: Marketing - Hero - CoverImageWithCtas
     heading: Understand your Rails app **in production**
-    subheading: Stop guessing and finally understand what your Rails app is **actually doing** in production.
-    cta:
-      text: Book Today
-      url: https://buy.stripe.com/dR6eVPeSk22X7YceUY
-    logos:
-      - name: airbnb
-      - name: google
-      - name: nike
-      - name: uber
-      - name: stripe
-      - name: mashable
+    subheading: Stop guessing and understand what your Rails app is **actually doing** in production.
+    left:
+      heading: 3 February 2025
+      subheading: >-
+        6 Weeks Workshop.
+        Hands On And Practical.
+        No DevOps Experience Needed.
+        Less Than 4 Hours A Week.
+        Designed For Seniors And Leads.
+        Solo Or Team Workshops.
+      cta:
+        text: Buy For Team
+        url: https://buy.stripe.com/dR6eVPeSk22X7YceUY
+    right:
+      heading: 4 Hours A Week, 6 Weeks
+      subheading: A short timescale to transform the culture of observability in your team. No DevOps experience needed.
+      cta:
+        text: View Blog
+        url: https://joyfulprogramming.com
+    image:
+      url: https://images.unsplash.com/photo-1448932223592-d1fc686e76ea
   - type: PricingTable
     library: FlowBite
     local: table
     heading: Pricing Plans
-    subheading: Here at we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
+    subheading: Flexible pricing for all teams and budgets.
     products:
       - id: prod_QYHXbnVYbPh22l
         payment_link_id: dR6eVPeSk22X7YceUY
@@ -36,6 +45,7 @@ blocks:
       - name: Starter
         subheading: Best option for personal use & for your next project.
         price: 29
+        unit: "/month"
         features:
           - Individual configuration
           - No setup, or hidden fees
@@ -48,6 +58,7 @@ blocks:
       - name: Company
         subheading: Relevant for multiple users, extended & premium support.
         price: 99
+        unit: "/month"
         features:
           - Individual configuration
           - No setup, or hidden fees
@@ -60,6 +71,7 @@ blocks:
       - name: Enterprise
         subheading: Best for large scale uses and extended redistribution rights.
         price: 499
+        unit: "/month"
         features:
           - Individual configuration
           - "No setup, or hidden fees"
