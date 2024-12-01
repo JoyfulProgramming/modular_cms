@@ -1,11 +1,9 @@
 <script webc:type="js" webc:setup>
   const productsFromStripe = (await stripe().products.list()).data;
-  const heading = "Pricing Plans";
-  const subheading = "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.";
 </script>
 
 <script webc:type="js">
-  const plans = webc.attributes.object.products.map(
+  const plans = webc.attributes.table.products.map(
     (product) => {
       return productsFromStripe.filter((p) => p.id === product.id)[0]
     }
@@ -23,13 +21,7 @@
       }
     }
   )
-
-  const table = {
-    plans: plans,
-    heading: heading,
-    subheading: subheading
-  };
-  webc.attributes.table = table;
+  webc.attributes.table.plans = plans;
   `<fb-pricing-cards :table="table"></fb-pricing-cards>`
 </script>
 

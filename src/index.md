@@ -17,6 +17,9 @@ blocks:
       - name: mashable
   - type: PricingTable
     library: FlowBite
+    local: table
+    heading: Pricing Plans
+    subheading: Here at we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
     products:
       - id: prod_QYHXbnVYbPh22l
       - id: prod_QUuRyxMMrbdtU8
