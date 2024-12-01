@@ -15,6 +15,9 @@ blocks:
       - name: uber
       - name: stripe
       - name: mashable
+  - type: PricingTable
+    library: Stripe
+    id: prctbl_1PhB1LKUdRAKmTxkuNZPXxYY
   - title: Image with CTA button
     type: ImageWithCtaButton
     heading: Let's create more tools and ideas that brings us together.
