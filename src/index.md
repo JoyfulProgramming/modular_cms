@@ -15,18 +15,6 @@ blocks:
       - name: uber
       - name: stripe
       - name: mashable
-  - type: PricingTable
-    library: FlowBite
-    local: table
-    heading: Pricing Plans
-    subheading: Here at we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
-    products:
-      - id: prod_QYHXbnVYbPh22l
-        payment_link_id: dR6eVPeSk22X7YceUY
-      - id: prod_QUuRyxMMrbdtU8
-        payment_link_id: 3cs4hb6lO3712DS7su
-      - id: prod_QoTFxmHghfUeRo
-        payment_link_id: 14k2935hK8rl1zObIN
   - title: Image with CTA button
     type: ImageWithCtaButton
     heading: Let's create more tools and ideas that brings us together.
@@ -64,7 +52,7 @@ blocks:
           title: CTO at Google
           image_src: https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png
   - title: Pricing cards
-    type: PricingCards_
+    type: PricingCards
     local: table
     heading: Designed for business teams like yours
     subheading: Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
@@ -105,4 +93,16 @@ blocks:
         cta:
           text: Get started
           url: https://flowbite.com
+  - type: PricingTable
+    library: FlowBite
+    local: table
+    heading: Pricing Plans
+    subheading: Here at we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
+    products:
+      - id: prod_QYHXbnVYbPh22l
+        payment_link_id: dR6eVPeSk22X7YceUY
+      - id: prod_QUuRyxMMrbdtU8
+        payment_link_id: 3cs4hb6lO3712DS7su
+      - id: prod_QoTFxmHghfUeRo
+        payment_link_id: 14k2935hK8rl1zObIN
 ---
