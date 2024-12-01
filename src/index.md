@@ -22,11 +22,11 @@ blocks:
     subheading: Here at we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
     products:
       - id: prod_QYHXbnVYbPh22l
+        payment_link_id: dR6eVPeSk22X7YceUY
       - id: prod_QUuRyxMMrbdtU8
+        payment_link_id: 3cs4hb6lO3712DS7su
       - id: prod_QoTFxmHghfUeRo
-  - type: PricingTable
-    library: Stripe
-    id: prctbl_1PhB1LKUdRAKmTxkuNZPXxYY
+        payment_link_id: 14k2935hK8rl1zObIN
   - title: Image with CTA button
     type: ImageWithCtaButton
     heading: Let's create more tools and ideas that brings us together.

@@ -3,9 +3,14 @@
 </script>
 
 <script webc:type="js">
+
   const plans = webc.attributes.table.products.map(
     (product) => {
-      return productsFromStripe.filter((p) => p.id === product.id)[0]
+      const stripeProduct = productsFromStripe.filter((p) => p.id === product.id)[0];
+      return {
+        ...stripeProduct,
+        payment_link_id: product.payment_link_id
+      }
     }
   ).map(
     (p) => {
@@ -16,7 +21,7 @@
         features: p.marketing_features.map((f) => f.name),
         cta: {
           text: "Get started",
-          url: "https://flowbite.com"
+          url: `https://buy.stripe.com/${p.payment_link_id}`
         }
       }
     }
