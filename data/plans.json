@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Test Pattern",
+    "subheading": null,
+    "price": 1,
+    "features": [],
+    "cta": {
+      "text": "Get started",
+      "url": "https://buy.stripe.com/aEU5lfbG8fTNdiw6oy"
+    }
+  },
+  {
+    "name": "Watch Cloud Costs",
+    "subheading": null,
+    "price": 2000,
+    "features": [],
+    "cta": {
+      "text": "Get started",
+      "url": "https://buy.stripe.com/bIYeVP5hK22X7Yc007"
+    }
+  },
+  {
+    "name": "Fix Bugs 20x Faster Workshop - Materials Only",
+    "subheading": "Materials from the 6 week fix bugs 20x faster workshop. No email support, access to Slack channel.",
+    "price": 75,
+    "features": [],
+    "cta": {
+      "text": "Get started",
+      "url": "https://buy.stripe.com/14k2935hK8rl1zObIN"
+    }
+  },
+  {
+    "name": "Fix Bugs 20x Faster Workshop - Team",
+    "subheading": "6 week hands on workshop teaching your team to fix bugs 20x faster.",
+    "price": 2000,
+    "features": [],
+    "cta": {
+      "text": "Get started",
+      "url": "https://buy.stripe.com/dR6eVPeSk22X7YceUY"
+    }
+  },
+  {
+    "name": "Fix Bugs 20x Faster Workshop - Solo",
+    "subheading": "6 Week Hands On Workshop for Senior Rails Engineers teaching you how to fix bugs 20x faster. ",
+    "price": 150,
+    "features": [],
+    "cta": {
+      "text": "Get started",
+      "url": "https://buy.stripe.com/3cs4hb6lO3712DS7su"
+    }
+  }
+]
