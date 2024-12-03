@@ -36,13 +36,17 @@ async function syncPlans() {
         const price = paymentLink.line_items.data[0].price;
         
         return {
-          name: product.name,
-          subheading: product.description,
+          id: product.id,
+          name: product.metadata.name,
+          subheading: product.metadata.description,
           price: price.unit_amount / 100,
-          features: product.features?.map(f => f.name) || [],
+          features: product.marketing_features?.map(f => f.name) || [],
           cta: {
             text: "Get started",
             url: paymentLink.url
+          },
+          product_line: {
+            id: product.metadata['product_line.id'] || ""
           }
         };
       });
