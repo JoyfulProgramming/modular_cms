@@ -27,27 +27,43 @@ blocks:
   - type: FeatureSectionsCtaList
     library: FlowBite
     local: section
-    heading: The most trusted cryptocurrency platform
-    subheading: Here are a few reasons why you should choose Flowbite
+    heading: Improve Observability
+    subheading: A few reasons why you should improve observability
     features:
-      - heading: Secure storage
-        summary: We store the vast majority of the digital assets in secure offline storage.
-        icon: fingerprint
-        cta:
-          text: How to keep your funds safe
-          url: /
-      - heading: Insurance
-        summary: Flowbite maintains crypto insurance and all USD cash balances are covered.
-        icon: clipboard
-        cta:
-          text: Learn how your crypto is covered
-          url: /
-      - heading: Best practices
-        summary: Flowbite marketplace supports a variety of the most popular digital currencies.
-        icon: badge
-        cta:
-          text: How to implement best practices
-          url: /
+      - heading: Fix Bugs Faster
+        summary: Observability lets you catch issues the moment they happen. It's like having X-ray vision for your app, so you can fix problems before they mess with your users' experience. No more guessing games—just quick, effective solutions.
+        icon: solid-wand-magic-sparkles
+      - heading: Find Performance Bottlenecks
+        summary: Observability helps you see where you can speed things up and make everything run smoother. Your users will notice the difference, and they'll keep coming back because they trust your app to perform.
+        icon: solid-award
+      - heading: Less Incidents, Less Stress
+        summary: Observability gives you the power to set alerts that warn you about potential issues before they blow up. It's like having a crystal ball for your app's health, letting you stay ahead of the game and keep everything running smoothly.
+        icon: solid-badge-check
+  - type: ContentSectionsDescription
+    library: FlowBite
+    local: section
+    heading: Diagnosing Incidents Takes Hours
+    subheading: Ever felt like you're chasing shadows? Debugging incidents without observability is just that. Imagine it's 2 AM - you're squinting at logs trying to figure out why your app just tanked. Not fun, right? Observability transforms your bug hunt into a guided tour. No more guesswork, just straight answers. And yes, you can actually sleep peacefully at night.
+  - type: ContentSectionsDescription
+    library: FlowBite
+    local: section
+    heading: App Health Is a Mystery
+    subheading: You're driving blindfolded. That's you managing a Rails app without observability. System health? A big question mark. CPU spikes, memory leaks, and you’re none the wiser until your app slows to a crawl—or worse, crashes.
+  - type: ContentSectionsDescription
+    library: FlowBite
+    local: section
+    heading: Improving Performance Is A Wild Goose Chase
+    subheading: Performance bottlenecks are sneaky, and without the right tools, they're nearly invisible. Trying to connect a profiler to a Rails app in production? Good luck with that. Even if you can figure out the slow areas of the app, without observability you can't accurately determine **why** they're slow.
+  - type: ContentSectionsDescription
+    library: FlowBite
+    local: section
+    heading: Background Jobs Are A Black Box
+    subheading: Those background jobs you rely on? They can fail silently and spectacularly. Without observability, you won’t know until it’s too late. Emails undelivered, reports half-baked—chaos ensues.
+  - type: ContentSectionsDescription
+    library: FlowBite
+    local: section
+    heading: Wasted Engineering Time Reinventing The Wheel
+    subheading: Rails is a "batteries included" framework, but that doesn't seem to apply to observability. Logging has been a weak point in the ecosystem. Structured logging is coming in Rails 8, but none of the other observability best practices come out of the box.  Every team I've seen has to start from scratch - writing Sidekiq middleware, adding metrics, and solving a ton of low level fiddly details.  This is frustrating, wastes hours of engineering time and distracts from the bigger business goals. The end result is often low quality and missing crucial instrumentation.
   - type: PricingTable
     library: FlowBite
     local: table
