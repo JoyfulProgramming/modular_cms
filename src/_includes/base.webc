@@ -42,7 +42,7 @@
 
 <body>
 	<header>
-		<fb-nav :product="site.product" :blocks="blocks"></fb-nav>
+		<fb-nav :company="site.company" :product="site.product" :blocks="blocks"></fb-nav>
 	</header>
 	<main id="skip" @raw="content">
 	</main>

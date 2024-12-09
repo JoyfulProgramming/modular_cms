@@ -8,7 +8,10 @@ import path from 'path';
 
 export default function (eleventyConfig) {
   eleventyConfig.ignores.add("./README.md");
-  eleventyConfig.addWatchTarget("src/_components/**/*.css");
+  eleventyConfig.addWatchTarget(
+    "src/_components/**/*.css",
+    "src/_models/**/*.ts",
+  );
   eleventyConfig.addPlugin(pluginWebc, {
     components: ["src/_components/**/*.webc"],
   });
@@ -31,7 +34,7 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addJavaScriptFunction("anchor_id_for", function (object) {
-    return object?.heading?.toLowerCase()?.replace(/ /g, '-') || '';
+    return object?.heading?.toLowerCase()?.replace(/ /g, '-') || '';;
   });
 
   eleventyConfig.addJavaScriptFunction("forObservabilityWorkshop", function (p) {

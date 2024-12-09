@@ -15,9 +15,12 @@
     "build": "rm -rf _site && ELEVENTY_ENV=production npx @11ty/eleventy && npx tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --minify"
   },
   "dependencies": {
+    "@stackbit/cli": "^0.3.125",
+    "@stackbit/cms-git": "^1.0.28",
+    "@stackbit/types": "^2.1.9",
     "dotenv": "^16.4.5",
     "flowbite": "^2.5.2",
-    "isomorphic-dompurify": "^2.17.0",
+    "isomorphic-dompurify": "^2.18.0",
     "stripe": "^17.4.0"
   }
 }
