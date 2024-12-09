@@ -2,6 +2,7 @@ import { defineStackbitConfig } from '@stackbit/types';
 import { GitContentSource } from '@stackbit/cms-git';
 import { Page } from './src/_models/page';
 import { MarketingHeroCoverImageWithCtas } from './src/_models/MarketingHeroCoverImageWithCtas';
+import { FeatureSectionsCtaList } from './src/_models/FeatureSectionsCtaList';
 
 export default defineStackbitConfig({
     stackbitVersion: '~0.6.0',
@@ -22,7 +23,8 @@ export default defineStackbitConfig({
             contentDirs: ['src'],
             models: [
                 Page,
-                MarketingHeroCoverImageWithCtas
+                MarketingHeroCoverImageWithCtas,
+                FeatureSectionsCtaList
             ],
             assetsConfig: {
                 referenceType: 'static',

@@ -12,7 +12,10 @@ export const Page = {
       description: 'The blocks to be arranged in the page',
       items: {
         type: 'model',
-        models: ['MarketingHeroCoverImageWithCtas'],
+        models: [
+          'MarketingHeroCoverImageWithCtas',
+          'FeatureSectionsCtaList',
+        ],
       }
     }
   ]
