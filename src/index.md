@@ -24,6 +24,30 @@ blocks:
         url: https://joyfulprogramming.com
     image:
       url: https://images.unsplash.com/photo-1448932223592-d1fc686e76ea
+  - type: FeatureSectionsCtaList
+    library: FlowBite
+    local: section
+    heading: The most trusted cryptocurrency platform
+    subheading: Here are a few reasons why you should choose Flowbite
+    features:
+      - heading: Secure storage
+        summary: We store the vast majority of the digital assets in secure offline storage.
+        icon: fingerprint
+        cta:
+          text: How to keep your funds safe
+          url: /
+      - heading: Insurance
+        summary: Flowbite maintains crypto insurance and all USD cash balances are covered.
+        icon: clipboard
+        cta:
+          text: Learn how your crypto is covered
+          url: /
+      - heading: Best practices
+        summary: Flowbite marketplace supports a variety of the most popular digital currencies.
+        icon: badge
+        cta:
+          text: How to implement best practices
+          url: /
   - type: PricingTable
     library: FlowBite
     local: table
@@ -36,51 +60,6 @@ blocks:
         payment_link_id: 3cs4hb6lO3712DS7su
       - id: prod_QoTFxmHghfUeRo
         payment_link_id: 14k2935hK8rl1zObIN
-  - title: Pricing cards
-    type: PricingCards
-    local: table
-    heading: Designed for business teams like yours
-    subheading: Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
-    plans:
-      - name: Starter
-        subheading: Best option for personal use & for your next project.
-        price: 29
-        unit: "/month"
-        features:
-          - Individual configuration
-          - No setup, or hidden fees
-          - "Team size: **1 developer**"
-          - "Premium support: **6 months**"
-          - "Free updates: **6 months**"
-        cta:
-          text: Get started
-          url: https://flowbite.com
-      - name: Company
-        subheading: Relevant for multiple users, extended & premium support.
-        price: 99
-        unit: "/month"
-        features:
-          - Individual configuration
-          - No setup, or hidden fees
-          - "Team size: **10 developers**"
-          - "Premium support: **24 months**"
-          - "Free updates: **24 months**"
-        cta:
-          text: Get started
-          url: https://flowbite.com
-      - name: Enterprise
-        subheading: Best for large scale uses and extended redistribution rights.
-        price: 499
-        unit: "/month"
-        features:
-          - Individual configuration
-          - "No setup, or hidden fees"
-          - "Team size: **100+ developers**"
-          - "Premium support: **36 months**"
-          - "Free updates: **36 months**"
-        cta:
-          text: Get started
-          url: https://flowbite.com
   - type: TestimonialCards
     heading: Testimonials
     subheading: "Flowbite helps you connect with friends and communities of people who share your interests."
