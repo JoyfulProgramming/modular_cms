@@ -30,6 +30,10 @@ export default function (eleventyConfig) {
     return JSON.parse(fs.readFileSync(dataPath, 'utf8'));
   });
 
+  eleventyConfig.addJavaScriptFunction("anchor_id_for", function (object) {
+    return object?.heading?.toLowerCase()?.replace(/ /g, '-') || '';
+  });
+
   eleventyConfig.addJavaScriptFunction("forObservabilityWorkshop", function (p) {
     return p.product_line.id === 'observability_workshop_1';
   });

@@ -2,6 +2,7 @@
 layout: page.webc
 blocks: 
   - type: Marketing - Hero - CoverImageWithCtas
+    hide_from_nav: true
     heading: Understand your Rails app **in production**
     subheading: Stop guessing and understand what your Rails app is **actually doing** in production.
     left:
@@ -28,6 +29,7 @@ blocks:
     library: FlowBite
     local: section
     heading: Improve Observability
+    hide_from_nav: true
     subheading: A few reasons why you should improve observability
     features:
       - heading: Fix Bugs Faster
