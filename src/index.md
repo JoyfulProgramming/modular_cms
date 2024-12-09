@@ -39,20 +39,22 @@ blocks:
       - heading: Less Incidents, Less Stress
         summary: Observability gives you the power to set alerts that warn you about potential issues before they blow up. It's like having a crystal ball for your app's health, letting you stay ahead of the game and keep everything running smoothly.
         icon: solid-badge-check
-  - type: FeatureSectionsDefault
+  - type: FeatureSectionsIcons
     library: FlowBite
     heading: The Problems
     features:
       - heading: Diagnosing Incidents Takes Hours
         subheading: Ever felt like you're chasing shadows? Debugging incidents without observability is just that. Imagine it's 2 AM - you're squinting at logs trying to figure out why your app just tanked. Not fun, right? Observability transforms your bug hunt into a guided tour. No more guesswork, just straight answers. And yes, you can actually sleep peacefully at night.
+        icon: solid-clock
       - heading: App Health Is a Mystery
         subheading: You're driving blindfolded. That's you managing a Rails app without observability. System health? A big question mark. CPU spikes, memory leaks, and you’re none the wiser until your app slows to a crawl—or worse, crashes.
+        icon: solid-heart
       - heading: Improving Performance Is A Wild Goose Chase
         subheading: Performance bottlenecks are sneaky, and without the right tools, they're nearly invisible. Trying to connect a profiler to a Rails app in production? Good luck with that. Even if you can figure out the slow areas of the app, without observability you can't accurately determine **why** they're slow.
+        icon: solid-question-circle
       - heading: Background Jobs Are A Black Box
         subheading: Those background jobs you rely on? They can fail silently and spectacularly. Without observability, you won’t know until it’s too late. Emails undelivered, reports half-baked—chaos ensues.
-      - heading: Wasted Engineering Time Reinventing The Wheel
-        subheading: Rails is a "batteries included" framework, but that doesn't seem to apply to observability. Logging has been a weak point in the ecosystem. Structured logging is coming in Rails 8, but none of the other observability best practices come out of the box.  Every team I've seen has to start from scratch - writing Sidekiq middleware, adding metrics, and solving a ton of low level fiddly details.  This is frustrating, wastes hours of engineering time and distracts from the bigger business goals. The end result is often low quality and missing crucial instrumentation.
+        icon: solid-inbox
   - type: PricingTable
     library: FlowBite
     local: table
