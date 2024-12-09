@@ -108,40 +108,17 @@ blocks:
         payment_link_id: 3cs4hb6lO3712DS7su
       - id: prod_QoTFxmHghfUeRo
         payment_link_id: 14k2935hK8rl1zObIN
-  - type: TestimonialCards
-    heading: Testimonials
-    subheading: "Flowbite helps you connect with friends and communities of people who share your interests."
-    testimonials:
-      - heading: Speechless with how easy this was to integrate
-        content: >-
-          I recently got my hands on Flowbite Pro, and holy crap, I'm speechless with how easy this was to integrate within my application.  Most templates are a pain, code is scattered, and near impossible to theme.  Flowbite has code in one place and I'm not joking when I say it took me a matter of minutes to copy the code, customise it and integrate within a Laravel + Vue application.  If you care for your time, I hands down would go with this.
-        author:
-          name: Bonnie Green
-          title: Developer at Open AI
-          image_src: https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png
-      - heading: Solid foundation for any project
-        content: FlowBite provides a robust set of design tokens and components based on the popular Tailwind CSS framework. From the most used UI components like forms and navigation bars to the whole app screens designed both for desktop and mobile, this UI kit provides a solid foundation for any project. Designing with Figma components that can be easily translated to the utility classes of Tailwind CSS is a huge timesaver!
-        author:
-          name: Roberta Casas
-          title: Lead designer at Dropbox
-          image_src: https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png
-      - heading: Mindblowing workflow and variants
-        content: "As someone who mainly designs in the browser, I've been a casual user of Figma, but as soon as I saw and started playing with FlowBite my mind was. Everything is so well structured and simple to use (I've learnt so much about Figma by just using the toolkit). Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application."
-        author:
-          name: Jese Leos
-          title: Software Engineer at Facebook
-          image_src: https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png
-      - heading: Efficient Collaborating
-        content: "This is a very complex and beautiful set of elements. Under the hood it comes with the best things from 2 different worlds: Figma and Tailwind. You have many examples that can be used to create a fast prototype for your team."
-        author:
-          name: Joseph McFall
-          title: CTO at Google
-          image_src: https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png
-  - title: Image with CTA button
-    type: ImageWithCtaButton
-    heading: Let's create more tools and ideas that brings us together.
-    subheading: Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.
-    cta:
-      text: Get Started
-      url: https://flowbite.com
+  - type: FaqSectionsAccordion
+    library: FlowBite
+    heading: Frequently Asked Questions
+    subheading: Anxious about why this might not work for you or any of the details? Here are answers to questions you may have.
+    questions:
+      - question: When does the course start?
+        answer: The next cohort starts on **Monday 28th October 2024**. There will be cohorts every few months so if you can't make those sessions, I can fit you on a later cohort.
+      - question: What is the duration of the workshop?
+        answer: The workshop lasts for 6 weeks.
+      - question: What experience do I need?
+        answer: This course is suitable for senior, lead and principle Ruby engineers. If you're at a junior or mid level position, it may be information overload. You don't need any special DevOps experience or knowledge of any observability tool.
+      - question: Do you offer refunds?
+        answer: Yup. Totally. If you aren't happy with your results from the 6 week course tell me why after the course is over and I'll happily refund you. For this to be valid you must have shown up for every session, put in the effort to apply the material to your real life problem and done all homework set for you. :)
 ---
