@@ -55,6 +55,47 @@ blocks:
       - heading: Background Jobs Are A Black Box
         subheading: Those background jobs you rely on? They can fail silently and spectacularly. Without observability, you won’t know until it’s too late. Emails undelivered, reports half-baked—chaos ensues.
         icon: solid-inbox
+  - type: FeatureSectionsCardList
+    library: FlowBite
+    heading: What Do You Get?
+    features:
+      - heading: Tailored Strategy Blueprint
+        subheading: Over the 6 weeks you'll build a personalized, practical, step-by-step action plan designed for your observability needs.
+      - heading: Steps To Observable Software
+        subheading: Master observability in just 4 hours a week — no DevOps experience required! Learn my simple 5-step process to boost software insights with ease.
+
+      - heading: Rails Logging Showdown
+        subheading: Comparisons of the best Rails structured logging libraries. See how they compare to make an solid choice and avoid issues later.
+
+      - heading: Bug Prioritization Worksheet
+        subheading: Stop wasting time on the wrong bugs! Use this actionable worksheet to identify the most business-critical issue you want to focus on in the workshop.
+
+      - heading: No-Bankruptcy Blueprint
+        subheading: Maximize observability without breaking the bank. Follow this checklist to boost insights while keeping costs under control.
+
+      - heading: Demystifying 3 Pillars
+        subheading: Get clarity on observability’s key pillars with this one-page guide. Cut through the vendor BS and finally understand traces, logs, and metrics.
+
+      - heading: Query Like a Pro
+        subheading: Learn five powerful tips to supercharge your querying skills in any observability tool — become the data detective your team needs.
+
+      - heading: Slack Channel Access
+        subheading: Ask any observability questions you have in the group Slack. We're here to support each other.
+
+      - heading: Accountability Followups
+        subheading: Learning observability is fine, but if you don't take action, it's all pointless. I follow up with you every week to help you see real progress against the plan.
+
+      - heading: Real Time Collaboration
+        subheading: Work directly with me in real time. Solve problems faster, get immediate feedback and move as one. Whether pairing or mobbing, your team will level up their skills and ship quality instrumentation quicker.
+
+      - heading: Pull Requests
+        subheading: I’ll create Pull Requests asynchronously, so you can easily review them during our weekly calls. This ensures you're using our time together effectively. Access needed to your repos.
+
+      - heading: Deep Context
+        subheading: I’ll dive into your business problems and domain, applying all my knowledge of observability to your specific challenges. This ensures solutions we create are aligned with your business goals for maximum impact.
+
+
+
   - type: PricingTable
     library: FlowBite
     local: table
