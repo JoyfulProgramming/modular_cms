@@ -20,6 +20,7 @@ export default defineStackbitConfig({
             }
         }
     },
+    useESM: true,
     nodeVersion: '20',
     contentSources: [
         new GitContentSource({
