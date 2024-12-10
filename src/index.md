@@ -151,7 +151,7 @@ blocks:
   - type: PricingTable
     library: FlowBite
     heading: Pricing Plans
-    subheading: Flexible pricing for all teams and budgets today
+    subheading: Flexible pricing for all teams and budgets.
     products:
       - id: prod_QYHXbnVYbPh22l
         payment_link_id: dR6eVPeSk22X7YceUY
