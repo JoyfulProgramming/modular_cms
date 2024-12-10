@@ -2,9 +2,9 @@
     <div class="gap-8 py-8 px-4 mx-auto max-w-screen-xl lg:py-16 xl:grid xl:grid-cols-12">
         <div class="col-span-8">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
-                @html="markdown(object.heading)"></h1>
+                @html="markdown(object.heading)" data-cms-bind="#blocks[0].heading"></h1>
             <p class="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
-                @html="markdown(object.subheading)"></p>
+                @html="markdown(object.subheading)" data-cms-bind="#blocks[0].subheading"></p>
             <div class="gap-16 flex flex-row">
                 <div class="w-1/2 mb-8 text-gray-500 sm:mb-0 dark:text-gray-400">
                     <svg class="mb-3 w-7 h-7" fill="currentColor" viewBox="0 0 20 20"
