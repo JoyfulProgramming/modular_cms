@@ -1,9 +1,17 @@
+_schema: _schema
 source: /src/
+paths:
+  uploads: uploads
+  static: ''
 collections_config:
   pages:
     path: ''
     name: Pages
     icon: wysiwyg
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   data:
     path: _data
     name: Data
@@ -12,9 +20,8 @@ collections_config:
     disable_add: true
     disable_add_folder: true
     disable_file_actions: true
-paths:
-  static: ''
-  uploads: uploads
+editor:
+  default_path:
 timezone: Europe/London
 markdown:
   engine: commonmark
