@@ -30,7 +30,7 @@ blocks:
   - type: FeatureSectionsCtaList
     library: FlowBite
     heading: Improve Observability
-    hide_from_nav: true
+    hide_from_nav: false
     subheading: A few reasons why you should improve observability
     features:
       - heading: Fix Bugs Faster
