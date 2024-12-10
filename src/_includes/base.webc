@@ -12,7 +12,6 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap"
 		rel="stylesheet" webc:keep>
-	<link rel="stylesheet" href="https://flowbite.com/marketing-ui/demo/app.css" webc:keep>
 	<link rel="apple-touch-icon" sizes="180x180" href="https://flowbite.com/marketing-ui/demo/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="https://flowbite.com/marketing-ui/demo/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="https://flowbite.com/marketing-ui/demo/favicon-16x16.png">
