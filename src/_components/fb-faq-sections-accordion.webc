@@ -26,7 +26,7 @@
                     <div :id="`accordion-flush-body-${questionIndex + 1}`"
                         :class="questionIndex === 0 ? 'block' : 'hidden'" :aria-labelledby="`accordion-flush-heading-${questionIndex + 1}`">
                         <div class="py-5 border-b border-gray-200 dark:border-gray-700"
-                            @html="markdown(question.answer)">
+                            @html="markdown(question.answer, ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'ul', 'ol', 'li', 'blockquote', 'code', 'pre', 'a', 'img', 'table', 'thead', 'tbody', 'th', 'tr', 'td'])">
                         </div>
                     </div>
                 </span>

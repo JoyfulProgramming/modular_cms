@@ -5,3 +5,7 @@
 .with-emphasised-text strong {
   @apply text-primary-600;
 }
+
+p {
+  @apply mb-3;
+}

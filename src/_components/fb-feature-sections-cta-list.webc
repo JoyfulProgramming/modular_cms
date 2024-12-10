@@ -1,11 +1,11 @@
 <section class="bg-white dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
-        <h2 :id="anchor_id_for(section)"
-            class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white" @text="section.heading">
+        <h2 :id="anchor_id_for(object)"
+            class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white" @text="object.heading">
         </h2>
-        <p class="text-gray-500 sm:text-xl dark:text-gray-400" @text="section.subheading"></p>
+        <p class="text-gray-500 sm:text-xl dark:text-gray-400" @text="object.subheading"></p>
         <div class="mt-8 lg:mt-12 space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-            <div webc:for="feature of section.features">
+            <div webc:for="feature of object.features">
                 <fb-icon :name="feature.icon"></fb-icon>
                 <h3 class="mb-2 text-xl font-bold dark:text-white" @text="feature.heading"></h3>
                 <p class="mb-4 text-gray-500 dark:text-gray-400" @text="feature.summary"></p>

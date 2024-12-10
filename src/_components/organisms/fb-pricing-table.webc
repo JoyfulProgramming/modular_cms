@@ -1,5 +1,5 @@
 <script webc:type="js">
   const plans = read('plans').filter(forObservabilityWorkshop).sort(priceDescending);
-  webc.attributes.table.plans = plans;
-  `<fb-pricing-cards :table="table"></fb-pricing-cards>`
+  webc.attributes.object.plans = plans;
+  `<fb-pricing-cards :object="object"></fb-pricing-cards>`
 </script>
