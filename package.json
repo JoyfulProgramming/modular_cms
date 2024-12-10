@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "author": "John Gallagher <john@synapticmishap.co.uk>",
   "license": "MIT",
+  "type": "module",
   "browserslist": "defaults, not ie <= 11",
   "devDependencies": {
   },
