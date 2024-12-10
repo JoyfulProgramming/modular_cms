@@ -8,7 +8,6 @@
 
 	<title @text="title || site.title"></title>
 
-	<link href="/fonts/default.css" rel="stylesheet" webc:keep>
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
 	<meta name="twitter:card" content="summary">
@@ -19,6 +18,50 @@
 	<link rel="stylesheet" href="styles.css" webc:keep>
 	<style webc:keep @raw="getBundle('css')"></style>
 	<script webc:keep @raw="getBundle('js')"></script>
+	<style webc:keep>
+		@font-face {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 300;
+			font-display: swap;
+			src: url(/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf) format('truetype');
+		}
+		@font-face {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf) format('truetype');
+		}
+		@font-face {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 500;
+			font-display: swap;
+			src: url(/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf) format('truetype');
+		}
+		@font-face {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 600;
+			font-display: swap;
+			src: url(/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf) format('truetype');
+		}
+		@font-face {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 700;
+			font-display: swap;
+			src: url(/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf) format('truetype');
+		}
+		@font-face {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 800;
+			font-display: swap;
+			src: url(/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf) format('truetype');
+		}
+	</style>
 </head>
 
 <body>
