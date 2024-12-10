@@ -11,8 +11,8 @@
     "tailwindcss": "^3.4.14"
   },
   "scripts": {
-    "serve": "rm -rf _site && npx @11ty/eleventy --serve --quiet & npx tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --watch",
-    "build": "rm -rf _site && ELEVENTY_ENV=production npx @11ty/eleventy && npx tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --minify"
+    "serve": "rm -rf _site && ./node_modules/.bin/eleventy --serve --quiet & ./node_modules/.bin/tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --watch",
+    "build": "rm -rf _site && ELEVENTY_ENV=production ./node_modules/.bin/eleventy && ./node_modules/.bin/tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --minify"
   },
   "dependencies": {
     "@stackbit/cli": "^0.3.125",

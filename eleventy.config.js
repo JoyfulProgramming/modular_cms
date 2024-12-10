@@ -1,3 +1,5 @@
+
+import Image from "@11ty/eleventy-img"
 import pluginWebc from "@11ty/eleventy-plugin-webc";
 import MarkdownIt from "markdown-it";
 import DOMPurify from "isomorphic-dompurify";
@@ -18,6 +20,28 @@ export default function (eleventyConfig) {
   eleventyConfig.setServerOptions({
     watch: ['_site/**/*.css'],
   });
+
+  eleventyConfig.addPlugin(Image, {
+    svgShortCircuit: true,
+    svgAllowUpscale: false,
+		// which file extensions to process
+		// extensions: "html",
+
+		// Add any other Image utility options here:
+
+		// optional, output image formats
+		// formats: ["webp", "jpeg"],
+		// formats: ["auto"],
+
+		// optional, output image widths
+		// widths: ["auto"],
+
+		// optional, attributes assigned on <img> override these values.
+		// defaultAttributes: {
+			// loading: "lazy",
+			// decoding: "async",
+		// }
+	});
 
   eleventyConfig.addFilter("markdown", function (content, allowedTags = []) {
     const unsafeHtml = new MarkdownIt({ html: true }).render(content || "");
