@@ -4,9 +4,9 @@ layout: page.webc
 blocks:
   - type: MarketingHeroCoverImageWithCtas
     hide_from_nav: true
-    heading: Understand your Rails app **in production**
+    heading: Understand Rails app **in production**
     subheading: >-
-      Stop guessing and understand what your Rails app is **actually doing** in
+      Stop guessing and understand what Rails app is **actually doing** in
       production.
     left:
       heading: 3 February 2025
