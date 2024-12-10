@@ -22,7 +22,6 @@
 	<link rel="stylesheet" href="styles.css" webc:keep>
 	<style webc:keep @raw="getBundle('css')"></style>
 	<script webc:keep @raw="getBundle('js')"></script>
-	
 </head>
 
 <body>
