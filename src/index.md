@@ -16,17 +16,17 @@ blocks:
         Workshops.
       cta:
         text: Buy For Team
-        url: https://buy.stripe.com/dR6eVPeSk22X7YceUY
+        url: 'https://buy.stripe.com/dR6eVPeSk22X7YceUY'
     right:
-      heading: 4 Hours A Week, 6 Weeks
+      heading: '4 Hours A Week, 6 Weeks'
       subheading: >-
         A short timescale to transform the culture of observability in your
         team. No DevOps experience needed.
       cta:
         text: View Blog
-        url: https://joyfulprogramming.com
+        url: 'https://joyfulprogramming.com'
     image:
-      url: https://images.unsplash.com/photo-1448932223592-d1fc686e76ea
+      url: 'https://images.unsplash.com/photo-1448932223592-d1fc686e76ea'
   - type: FeatureSectionsCtaList
     library: FlowBite
     heading: Improve Observability
@@ -46,7 +46,7 @@ blocks:
           everything run smoother. Your users will notice the difference, and
           they'll keep coming back because they trust your app to perform.
         icon: solid-award
-      - heading: Less Incidents, Less Stress
+      - heading: 'Less Incidents, Less Stress'
         summary: >-
           Observability gives you the power to set alerts that warn you about
           potential issues before they blow up. It's like having a crystal ball
@@ -220,4 +220,17 @@ blocks:
           team benefits from the sessions. We use mobbing and pairing to achieve
           that with an emphasis on learning by writing code in your codebase. I
           familiarise myself with your business problem and domain.
+      - question: What guarantees do you offer?
+        answer: >-
+          Good question!
+
+
+          I guarantee that **if you show up and do the work as set**, you will
+          come out of the 6 week workshop with **an actionable plan for fixing
+          the biggest, hairiest, most important bug** your team is facing.
+
+
+          Ideally we'll also have deployed code to move you towards that goal.
+          Results will vary widely depending on the culture of the team, how
+          long it takes to deploy and many other things beyond my control.
 ---
