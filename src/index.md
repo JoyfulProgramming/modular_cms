@@ -53,6 +53,40 @@ blocks:
           for your app's health, letting you stay ahead of the game and keep
           everything running smoothly.
         icon: solid-badge-check
+  - type: FeatureSectionsIcons
+    library: FlowBite
+    heading: The Problems
+    features:
+      - heading: Diagnosing Incidents Takes Hours
+        subheading: >-
+          Ever felt like you're chasing shadows? Debugging incidents without
+          observability is just that. Imagine it's 2 AM - you're squinting at
+          logs trying to figure out why your app just tanked. Not fun, right?
+          Observability transforms your bug hunt into a guided tour. No more
+          guesswork, just straight answers. And yes, you can actually sleep
+          peacefully at night.
+        icon: solid-clock
+      - heading: App Health Is a Mystery
+        subheading: >-
+          You're driving blindfolded. That's you managing a Rails app without
+          observability. System health? A big question mark. CPU spikes, memory
+          leaks, and you’re none the wiser until your app slows to a crawl—or
+          worse, crashes.
+        icon: solid-heart
+      - heading: Improving Performance Is A Wild Goose Chase
+        subheading: >-
+          Performance bottlenecks are sneaky, and without the right tools,
+          they're nearly invisible. Trying to connect a profiler to a Rails app
+          in production? Good luck with that. Even if you can figure out the
+          slow areas of the app, without observability you can't accurately
+          determine **why** they're slow.
+        icon: solid-question-circle
+      - heading: Background Jobs Are A Black Box
+        subheading: >-
+          Those background jobs you rely on? They can fail silently and
+          spectacularly. Without observability, you won’t know until it’s too
+          late. Emails undelivered, reports half-baked—chaos ensues.
+        icon: solid-inbox
   - type: FeatureSectionsCardList
     library: FlowBite
     heading: What Do You Get?
@@ -114,40 +148,6 @@ blocks:
           knowledge of observability to your specific challenges. This ensures
           solutions we create are aligned with your business goals for maximum
           impact.
-  - type: FeatureSectionsIcons
-    library: FlowBite
-    heading: The Problems
-    features:
-      - heading: Diagnosing Incidents Takes Hours
-        subheading: >-
-          Ever felt like you're chasing shadows? Debugging incidents without
-          observability is just that. Imagine it's 2 AM - you're squinting at
-          logs trying to figure out why your app just tanked. Not fun, right?
-          Observability transforms your bug hunt into a guided tour. No more
-          guesswork, just straight answers. And yes, you can actually sleep
-          peacefully at night.
-        icon: solid-clock
-      - heading: App Health Is a Mystery
-        subheading: >-
-          You're driving blindfolded. That's you managing a Rails app without
-          observability. System health? A big question mark. CPU spikes, memory
-          leaks, and you’re none the wiser until your app slows to a crawl—or
-          worse, crashes.
-        icon: solid-heart
-      - heading: Improving Performance Is A Wild Goose Chase
-        subheading: >-
-          Performance bottlenecks are sneaky, and without the right tools,
-          they're nearly invisible. Trying to connect a profiler to a Rails app
-          in production? Good luck with that. Even if you can figure out the
-          slow areas of the app, without observability you can't accurately
-          determine **why** they're slow.
-        icon: solid-question-circle
-      - heading: Background Jobs Are A Black Box
-        subheading: >-
-          Those background jobs you rely on? They can fail silently and
-          spectacularly. Without observability, you won’t know until it’s too
-          late. Emails undelivered, reports half-baked—chaos ensues.
-        icon: solid-inbox
   - type: PricingTable
     library: FlowBite
     heading: Pricing Plans
