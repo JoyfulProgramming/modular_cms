@@ -220,4 +220,17 @@ blocks:
           team benefits from the sessions. We use mobbing and pairing to achieve
           that with an emphasis on learning by writing code in your codebase. I
           familiarise myself with your business problem and domain.
+      - question: What guarantees do you offer?
+        answer: >-
+          Good question!
+
+
+          I guarantee that **if you show up and do the work as set**, you will
+          come out of the 6 week workshop with **an actionable plan for fixing
+          the biggest, hairiest, most important bug** your team is facing.
+
+
+          Ideally we'll also have deployed code to move you towards that goal.
+          Results will vary widely depending on the culture of the team, how
+          long it takes to deploy and many other things beyond my control.
 ---
