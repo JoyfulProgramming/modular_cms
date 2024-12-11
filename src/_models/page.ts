@@ -15,6 +15,12 @@ export const Page = {
         models: [
           'MarketingHeroCoverImageWithCtas',
           'FeatureSectionsCtaList',
+          'FeatureSectionsIcons',
+          'FeatureSectionsCtaList',
+          'FeatureSectionsIcons',
+          'FeatureSectionsCardList',
+          'PricingTable',
+          'FaqSectionsAccordion'
         ],
       }
     }
