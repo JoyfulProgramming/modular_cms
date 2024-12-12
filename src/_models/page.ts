@@ -13,15 +13,13 @@ export const Page = {
       items: {
         type: 'model',
         models: [
-          'MarketingHeroCoverImageWithCtas',
-          'FeatureSectionsCtaList',
-          'FeatureSectionsIcons',
-          'FeatureSectionsCtaList',
-          'FeatureSectionsIcons',
+          'FaqSectionsAccordion',
           'FeatureSectionsCardList',
-          'PricingTable',
-          'FaqSectionsAccordion'
-        ],
+          'FeatureSectionsCtaList',
+          'FeatureSectionsIcons',
+          'MarketingHeroCoverImageWithCtas',
+          'PricingTable'
+        ]
       }
     }
   ]
