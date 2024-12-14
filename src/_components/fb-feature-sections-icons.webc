@@ -9,7 +9,7 @@
                     <fb-icon class="mx-auto w-16 h-16 text-primary-600 dark:text-primary-500" :name="feature.icon"></fb-icon>
                 </div>
                 <h3 class="mb-4 text-2xl font-bold dark:text-white" @text="feature.heading"></h3>
-                <p class="mb-4 text-gray-500 dark:text-gray-400" @html="markdown(feature.subheading)"></p>
+                <p class="mb-4 text-gray-500 dark:text-gray-400" @html="markdown(feature.summary)"></p>
             </div>
         </div>
         <p class="text-center">

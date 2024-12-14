@@ -58,7 +58,7 @@ blocks:
     heading: The Problems
     features:
       - heading: Diagnosing Incidents Takes Hours
-        subheading: >-
+        summary: >-
           Ever felt like you're chasing shadows? Debugging incidents without
           observability is just that. Imagine it's 2 AM - you're squinting at
           logs trying to figure out why your app just tanked. Not fun, right?
@@ -67,14 +67,14 @@ blocks:
           peacefully at night.
         icon: solid-clock
       - heading: App Health Is a Mystery
-        subheading: >-
+        summary: >-
           You're driving blindfolded. That's you managing a Rails app without
           observability. System health? A big question mark. CPU spikes, memory
           leaks, and you’re none the wiser until your app slows to a crawl—or
           worse, crashes.
         icon: solid-heart
       - heading: Improving Performance Is A Wild Goose Chase
-        subheading: >-
+        summary: >-
           Performance bottlenecks are sneaky, and without the right tools,
           they're nearly invisible. Trying to connect a profiler to a Rails app
           in production? Good luck with that. Even if you can figure out the
@@ -82,7 +82,7 @@ blocks:
           determine **why** they're slow.
         icon: solid-question-circle
       - heading: Background Jobs Are A Black Box
-        subheading: >-
+        summary: >-
           Those background jobs you rely on? They can fail silently and
           spectacularly. Without observability, you won’t know until it’s too
           late. Emails undelivered, reports half-baked—chaos ensues.
@@ -92,58 +92,58 @@ blocks:
     heading: What Do You Get?
     features:
       - heading: Tailored Strategy Blueprint
-        subheading: >-
+        summary: >-
           Over the 6 weeks you'll build a personalized, practical, step-by-step
           action plan designed for your observability needs.
       - heading: Steps To Observable Software
-        subheading: >-
+        summary: >-
           Master observability in just 4 hours a week — no DevOps experience
           required! Learn my simple 5-step process to boost software insights
           with ease.
       - heading: Rails Logging Showdown
-        subheading: >-
+        summary: >-
           Comparisons of the best Rails structured logging libraries. See how
           they compare to make an solid choice and avoid issues later.
       - heading: Bug Prioritization Worksheet
-        subheading: >-
+        summary: >-
           Stop wasting time on the wrong bugs! Use this actionable worksheet to
           identify the most business-critical issue you want to focus on in the
           workshop.
       - heading: No-Bankruptcy Blueprint
-        subheading: >-
+        summary: >-
           Maximize observability without breaking the bank. Follow this
           checklist to boost insights while keeping costs under control.
       - heading: Demystifying 3 Pillars
-        subheading: >-
+        summary: >-
           Get clarity on observability’s key pillars with this one-page guide.
           Cut through the vendor BS and finally understand traces, logs, and
           metrics.
       - heading: Query Like a Pro
-        subheading: >-
+        summary: >-
           Learn five powerful tips to supercharge your querying skills in any
           observability tool — become the data detective your team needs.
       - heading: Slack Channel Access
-        subheading: >-
+        summary: >-
           Ask any observability questions you have in the group Slack. We're
           here to support each other.
       - heading: Accountability Followups
-        subheading: >-
+        summary: >-
           Learning observability is fine, but if you don't take action, it's all
           pointless. I follow up with you every week to help you see real
           progress against the plan.
       - heading: Real Time Collaboration
-        subheading: >-
+        summary: >-
           Work directly with me in real time. Solve problems faster, get
           immediate feedback and move as one. Whether pairing or mobbing, your
           team will level up their skills and ship quality instrumentation
           quicker.
       - heading: Pull Requests
-        subheading: >-
+        summary: >-
           I’ll create Pull Requests asynchronously, so you can easily review
           them during our weekly calls. This ensures you're using our time
           together effectively. Access needed to your repos.
       - heading: Deep Context
-        subheading: >-
+        summary: >-
           I’ll dive into your business problems and domain, applying all my
           knowledge of observability to your specific challenges. This ensures
           solutions we create are aligned with your business goals for maximum
