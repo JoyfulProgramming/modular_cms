@@ -5,7 +5,7 @@ blocks:
     heading: Understand Your Rails App In Production
     subheading: >-
       Stop guessing and finally understand what your Rails app is **actually**
-      in production.
+      doing in production.
     left:
       heading: 28 November 2024
       subheading: >-
