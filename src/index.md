@@ -9,9 +9,9 @@ blocks:
     left:
       heading: 28 November 2024
       subheading: >-
-        6 Weeks Workshop. Hands On And Practical. No DevOps Experience Needed.
-        Less Than 4 Hours A Week. Designed For Seniors And Leads. Solo Or Team
-        Workshops.
+        6 Weeks Workshop. Hands On And Practical. No DevOps Experience
+        Needed.Less Than 4 Hours A Week. Designed For Seniors And Leads. Solo Or
+        Team Workshops.
       cta:
         text: Book Now
         url: '#'
