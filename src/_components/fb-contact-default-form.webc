@@ -1,7 +1,7 @@
 <section class="bg-white dark:bg-gray-900">
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white" @text="object.heading"></h2>
-    <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl" @text="object.subheading"></p>
+    <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl" @html="markdown(object.subheading)"></p>
     <form name="contact-form" class="space-y-8" netlify>
       <div>
         <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email</label>
@@ -22,7 +22,7 @@
           placeholder="Leave a comment..." required></textarea>
       </div>
       <button type="submit" name="submit"
-        class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send
+        class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" @text="object.submit_text">Send
         Message</button>
     </form>
   </div>
