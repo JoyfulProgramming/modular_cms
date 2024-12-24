@@ -4,7 +4,7 @@
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
                 @html="markdown(object.heading)" data-cms-bind="#blocks[0].heading"></h1>
             <p class="mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
-                @html="markdown(object.subheading)" data-cms-bind="#blocks[0].subheading"></p>
+                @html="markdown(object.subheading, ['strong', 'em'])" data-cms-bind="#blocks[0].subheading"></p>
             <div class="gap-16 flex flex-row">
                 <div class="w-1/2 mb-8 text-gray-500 sm:mb-0 dark:text-gray-400">
                     <svg class="mb-3 w-7 h-7" fill="currentColor" viewBox="0 0 20 20"
@@ -15,7 +15,7 @@
                     </svg>
                     <h2 class="mb-3 text-xl font-semibold text-gray-900 dark:text-white"
                         @html="markdown(object.left.heading)"></h2>
-                    <p class="mb-4 font-light" @html="markdown(object.left.subheading)"></p>
+                    <span class="mb-4 font-light" @html="markdown(object.left.subheading, ['p', 'a', 'ul', 'ol', 'li', 'h2', 'h3', 'h4', 'h5', 'h6'])"></span>
                     <a :href="object.left.cta.url"
                         class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
                         <span @text="object.left.cta.text"></span>
@@ -35,7 +35,7 @@
                             clip-rule="evenodd"></path>
                     </svg>
                     <h2 class="mb-3 text-xl font-semibold text-gray-900 dark:text-white" @text="object.right.heading"></h2>
-                    <p class="mb-4 font-light" @text="object.right.subheading"></p>
+                    <span class="mb-4 font-light" @html="markdown(object.right.subheading, ['p', 'a', 'ul', 'ol', 'li', 'h2', 'h3', 'h4', 'h5', 'h6'])"></span>
                     <a :href="object.right.cta.url"
                         class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 inline-flex items-center">
                         <svg class="mr-2 -ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
