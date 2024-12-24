@@ -96,6 +96,57 @@ blocks:
             Once you have the basics in place I coach you beyond the basics into the domain of your Rails app in your company and we customise for your use case.
           icon: outline-adjustments-horizontal
       library: FlowBite
+    - type: FeatureSectionsCardList
+      library: FlowBite
+      heading: What Do You Get?
+      features:
+        - heading: Tailored Strategy Blueprint
+          summary: Over the 6 weeks you'll build a personalized, practical, step-by-step action plan designed for your observability needs.
+          icon: ""
+        - heading: Steps To Observable Software
+          summary: Master observability in just 4 hours a week — no DevOps experience required! Learn my simple 5-step process to boost software insights with ease.
+          icon: ""
+        - heading: Rails Logging Showdown
+          summary: Comparisons of the best Rails structured logging libraries. See how they compare to make an solid choice and avoid issues later.
+          icon: ""
+        - heading: Bug Prioritization Worksheet
+          summary: Stop wasting time on the wrong bugs! Use this actionable worksheet to identify the most business-critical issue you want to focus on in the workshop.
+          icon: ""
+        - heading: No-Bankruptcy Blueprint
+          summary: Maximize observability without breaking the bank. Follow this checklist to boost insights while keeping costs under control.
+          icon: ""
+        - heading: Demystifying 3 Pillars
+          summary: Get clarity on observability’s key pillars with this one-page guide. Cut through the vendor BS and finally understand traces, logs, and metrics.
+          icon: ""
+        - heading: Query Like a Pro
+          summary: Learn five powerful tips to supercharge your querying skills in any observability tool — become the data detective your team needs.
+          icon: ""
+        - heading: Slack Channel Access
+          summary: Ask any observability questions you have in the group Slack. We're here to support each other.
+          icon: ""
+        - heading: Accountability Followups
+          summary: Learning observability is fine, but if you don't take action, it's all pointless. I follow up with you every week to help you see real progress against the plan.
+          icon: ""
+        - heading: Real Time Collaboration
+          summary: Work directly with me in real time. Solve problems faster, get immediate feedback and move as one. Whether pairing or mobbing, your team will level up their skills and ship quality instrumentation quicker.
+          icon: ""
+        - heading: Pull Requests
+          summary: I’ll create Pull Requests asynchronously, so you can easily review them during our weekly calls. This ensures you're using our time together effectively. Access needed to your repos.
+          icon: ""
+        - heading: Deep Context
+          summary: I’ll dive into your business problems and domain, applying all my knowledge of observability to your specific challenges. This ensures solutions we create are aligned with your business goals for maximum impact.
+          icon: ""
+    - type: PricingTable
+      library: FlowBite
+      heading: Pricing Plans
+      subheading: Flexible pricing for all teams and budgets.
+      products:
+        - id: prod_QYHXbnVYbPh22l
+          payment_link_id: dR6eVPeSk22X7YceUY
+        - id: prod_QUuRyxMMrbdtU8
+          payment_link_id: 3cs4hb6lO3712DS7su
+        - id: prod_QoTFxmHghfUeRo
+          payment_link_id: 14k2935hK8rl1zObIN
 layout: page.webc
 type: Page
 ---
