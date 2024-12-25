@@ -225,10 +225,6 @@ blocks:
           solutions we create are aligned with your business goals for maximum
           impact.
         icon: ''
-  - type: PricingTable
-    heading: Pricing
-    subheading: Pricing for all teams
-    product_line_id: observability_workshop_1
   - type: ContactDefaultForm
     library: FlowBite
     heading: Sign Up For Early Access Today

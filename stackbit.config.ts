@@ -10,7 +10,7 @@ import { FaqSectionsAccordion } from './src/_models/FaqSectionsAccordion';
 import { ContactDefaultForm } from './src/_models/ContactDefaultForm';
 
 export default defineStackbitConfig({
-    stackbitVersion: '~0.6.0',
+    stackbitVersion: '~0.7.0',
     ssgName: 'custom',
     devCommand: './node_modules/.bin/eleventy && ./node_modules/.bin/tailwindcss -i src/tailwind.css -c tailwind.config.js -o _site/styles.css && ./node_modules/.bin/eleventy --serve --port {PORT} --incremental',
     experimental: {
