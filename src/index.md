@@ -238,7 +238,7 @@ blocks:
         payment_link_id: 14k2935hK8rl1zObIN
   - type: ContactDefaultForm
     library: FlowBite
-    heading: Sign Up For Early
+    heading: Sign Up For Early Access Today
     subheading: The first 20 customers get early access.
     submit_text: Sign Up
 layout: page.webc
