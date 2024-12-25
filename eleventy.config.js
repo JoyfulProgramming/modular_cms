@@ -1,3 +1,4 @@
+
 import pluginWebc from "@11ty/eleventy-plugin-webc";
 import MarkdownIt from "markdown-it";
 import DOMPurify from "isomorphic-dompurify";
@@ -5,8 +6,10 @@ import Stripe from 'stripe';
 import fs from 'fs';
 import path from 'path';
 import { IdAttributePlugin } from "@11ty/eleventy";
+import criticalCss from 'eleventy-critical-css';
 
 export default function (eleventyConfig) {
+  eleventyConfig.addPlugin(criticalCss);
   eleventyConfig.ignores.add("./README.md");
   eleventyConfig.addWatchTarget(
     "src/_components/**/*.css",
