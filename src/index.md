@@ -25,7 +25,7 @@ blocks:
         team. No DevOps experience needed.
       cta:
         text: Read Blog
-        url: '#'
+        url: 'https://joyfulprogramming.com'
     image:
       url: >-
         https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/conference-speaker.jpg
