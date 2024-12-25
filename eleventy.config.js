@@ -7,8 +7,20 @@ import fs from 'fs';
 import path from 'path';
 import { IdAttributePlugin } from "@11ty/eleventy";
 import criticalCss from 'eleventy-critical-css';
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 export default function (eleventyConfig) {
+  eleventyConfig.addPlugin(
+    eleventyImageTransformPlugin,
+    {
+      formats: ["webp", "jpeg"],
+      defaultAttributes: {
+        loading: "lazy",
+        decoding: "async",
+        sizes: "auto",
+      },
+    }
+  );
   eleventyConfig.addPassthroughCopy({ "src/images/favicon": "/" });
   eleventyConfig.addPlugin(criticalCss);
   eleventyConfig.ignores.add("./README.md");
