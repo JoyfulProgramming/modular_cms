@@ -24,7 +24,7 @@ blocks:
         A short timescale to transform the culture of observability in your
         team. No DevOps experience needed.
       cta:
-        text: Blog
+        text: Read Blog
         url: '#'
     image:
       url: >-
