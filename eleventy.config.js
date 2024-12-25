@@ -9,6 +9,7 @@ import { IdAttributePlugin } from "@11ty/eleventy";
 import criticalCss from 'eleventy-critical-css';
 
 export default function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy({ "src/images/favicon": "/" });
   eleventyConfig.addPlugin(criticalCss);
   eleventyConfig.ignores.add("./README.md");
   eleventyConfig.addWatchTarget(
