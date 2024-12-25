@@ -226,16 +226,9 @@ blocks:
           impact.
         icon: ''
   - type: PricingTable
-    library: FlowBite
-    heading: Pricing Plans
-    subheading: Flexible pricing for all teams and budgets.
-    products:
-      - id: prod_QYHXbnVYbPh22l
-        payment_link_id: dR6eVPeSk22X7YceUY
-      - id: prod_QUuRyxMMrbdtU8
-        payment_link_id: 3cs4hb6lO3712DS7su
-      - id: prod_QoTFxmHghfUeRo
-        payment_link_id: 14k2935hK8rl1zObIN
+    heading: Pricing
+    subheading: Pricing for all teams
+    product_line_id: observability_workshop_1
   - type: ContactDefaultForm
     library: FlowBite
     heading: Sign Up For Early Access Today

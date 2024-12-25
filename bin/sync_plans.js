@@ -46,7 +46,8 @@ async function syncPlans() {
             url: paymentLink.url
           },
           product_line: {
-            id: product.metadata['product_line.id'] || ""
+            id: product.metadata['product_line.id'] || "",
+            name: product.metadata['product_line.name'] || ""
           }
         };
       });

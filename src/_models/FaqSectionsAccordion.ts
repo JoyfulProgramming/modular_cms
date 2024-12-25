@@ -1,15 +1,10 @@
-export interface FaqSectionsAccordion {
-    title: string;
-    sections: Section[];
-    // ... rest of the interface
-}
+import { Model } from '@stackbit/types';
 
-export interface Section {
-    title: string;
-    items: Item[];
-}
-
-export interface Item {
-    question: string;
-    answer: string;
-}
+export const FaqSectionsAccordion: Model = {
+  type: 'object',
+  name: 'FaqSectionsAccordion',
+  fields: [
+    { name: 'heading', label: 'Heading', type: 'text' },
+    { name: 'subheading', label: 'Subheading', type: 'text' },
+  ]
+};

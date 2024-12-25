@@ -34,9 +34,6 @@ export default function (eleventyConfig) {
     return JSON.parse(fs.readFileSync(dataPath, 'utf8'));
   });
 
-  eleventyConfig.addJavaScriptFunction("forObservabilityWorkshop", function (p) {
-    return p.product_line.id === 'observability_workshop_1';
-  });
   eleventyConfig.addJavaScriptFunction("priceAscending", function (a, b) {
     return a.price - b.price;
   });

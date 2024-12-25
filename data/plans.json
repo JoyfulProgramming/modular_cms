@@ -1,20 +1,5 @@
 [
   {
-    "id": "prod_R8xCblH2krMakH",
-    "price": 1,
-    "features": [
-      "Downloadable pattern",
-      "Great for cross stitching"
-    ],
-    "cta": {
-      "text": "Get started",
-      "url": "https://buy.stripe.com/aEU5lfbG8fTNdiw6oy"
-    },
-    "product_line": {
-      "id": null
-    }
-  },
-  {
     "id": "prod_QstmUTmH3KaaEV",
     "price": 2000,
     "features": [],
@@ -23,7 +8,8 @@
       "url": "https://buy.stripe.com/bIYeVP5hK22X7Yc007"
     },
     "product_line": {
-      "id": null
+      "id": "",
+      "name": ""
     }
   },
   {
@@ -37,7 +23,8 @@
       "url": "https://buy.stripe.com/14k2935hK8rl1zObIN"
     },
     "product_line": {
-      "id": "observability_workshop_1"
+      "id": "observability_workshop_1",
+      "name": "Fix Bugs 20x Faster Workshop"
     }
   },
   {
@@ -57,7 +44,8 @@
       "url": "https://buy.stripe.com/dR6eVPeSk22X7YceUY"
     },
     "product_line": {
-      "id": "observability_workshop_1"
+      "id": "observability_workshop_1",
+      "name": "Fix Bugs 20x Faster Workshop"
     }
   },
   {
@@ -76,7 +64,8 @@
       "url": "https://buy.stripe.com/3cs4hb6lO3712DS7su"
     },
     "product_line": {
-      "id": "observability_workshop_1"
+      "id": "observability_workshop_1",
+      "name": "Fix Bugs 20x Faster Workshop"
     }
   }
 ]

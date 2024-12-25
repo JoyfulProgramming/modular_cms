@@ -1,4 +1,12 @@
 import { Model } from '@stackbit/types';
+import fs from 'fs';
+import path from 'path';
+
+const dataPath = path.join(process.cwd(), 'data', 'plans.json');
+const allPlans = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+const uniquePlans = allPlans
+  .filter((plan, index, self) => index === self.findIndex(p => p.product_line.id === plan.product_line.id))
+  .filter(plan => plan.product_line.id);
 
 export const PricingTable: Model = {
   type: 'object',
@@ -17,27 +25,15 @@ export const PricingTable: Model = {
       required: true
     },
     {
-      type: 'list',
-      name: 'products',
-      label: 'Products',
+      type: 'enum',
+      name: 'product_line_id',
+      label: 'Product Line',
       required: true,
-      items: {
-        type: 'object',
-        fields: [
-          {
-            type: 'string',
-            name: 'id',
-            label: 'ID',
-            required: true
-          },
-          {
-            type: 'string',
-            name: 'payment_link_id',
-            label: 'Payment Link ID',
-            required: true
-          }
-        ]
-      }
-    }
+      description: 'The product line to use for the pricing table. This is used to filter the products in the Stripe API.',
+      options: uniquePlans.map(plan => ({
+        label: plan.product_line.name,
+        value: plan.product_line.id
+      }))
+    },
   ]
 };
