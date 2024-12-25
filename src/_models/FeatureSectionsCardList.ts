@@ -26,8 +26,8 @@ export const FeatureSectionsCardList: Model = {
           },
           {
             type: 'string',
-            name: 'subheading',
-            label: 'Subheading',
+            name: 'summary',
+            label: 'Summary',
             required: true
           }
         ]

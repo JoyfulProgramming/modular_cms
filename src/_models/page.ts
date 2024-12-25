@@ -13,9 +13,13 @@ export const Page = {
       items: {
         type: 'model',
         models: [
-          'MarketingHeroCoverImageWithCtas',
+          'FaqSectionsAccordion',
+          'FeatureSectionsCardList',
           'FeatureSectionsCtaList',
-        ],
+          'FeatureSectionsIcons',
+          'MarketingHeroCoverImageWithCtas',
+          'PricingTable'
+        ]
       }
     }
   ]
