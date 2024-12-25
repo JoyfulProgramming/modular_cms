@@ -12,7 +12,7 @@
   },
   "scripts": {
     "serve": "rm -rf _site && ./node_modules/.bin/eleventy --serve --quiet & ./node_modules/.bin/tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --watch",
-    "build": "rm -rf _site && ELEVENTY_ENV=production ./node_modules/.bin/eleventy && ./node_modules/.bin/tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --minify"
+    "build": "rm -rf _site && ./node_modules/.bin/tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --minify && ELEVENTY_ENV=production ./node_modules/.bin/eleventy"
   },
   "dependencies": {
     "@11ty/eleventy-img": "^5.0.0",

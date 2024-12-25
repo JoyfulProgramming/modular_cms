@@ -51,6 +51,7 @@ export default function (eleventyConfig) {
     htmlTemplateEngine: "webc",
     dir: {
       input: 'src',
+      output: '_site',
     },
   };
 };
