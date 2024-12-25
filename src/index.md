@@ -227,7 +227,7 @@ blocks:
         icon: ''
   - type: PricingTable
     heading: Pricing
-    subheading: Pricing for all teams
+    subheading: Pricing for every team.
     product_line_id: observability_workshop_1
   - type: ContactDefaultForm
     library: FlowBite
