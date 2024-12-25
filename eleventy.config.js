@@ -4,6 +4,7 @@ import DOMPurify from "isomorphic-dompurify";
 import Stripe from 'stripe';
 import fs from 'fs';
 import path from 'path';
+import { IdAttributePlugin } from "@11ty/eleventy";
 
 export default function (eleventyConfig) {
   eleventyConfig.ignores.add("./README.md");
@@ -14,6 +15,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginWebc, {
     components: ["src/_components/**/*.webc"],
   });
+  eleventyConfig.addPlugin(IdAttributePlugin);
   eleventyConfig.setServerOptions({
     watch: ['_site/**/*.css'],
   });
@@ -30,10 +32,6 @@ export default function (eleventyConfig) {
   eleventyConfig.addJavaScriptFunction("read", function (name) {
     const dataPath = path.join(process.cwd(), 'data', `${name}.json`);
     return JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-  });
-
-  eleventyConfig.addJavaScriptFunction("anchor_id_for", function (object) {
-    return object?.heading?.toLowerCase()?.replace(/ /g, '-') || '';;
   });
 
   eleventyConfig.addJavaScriptFunction("forObservabilityWorkshop", function (p) {
