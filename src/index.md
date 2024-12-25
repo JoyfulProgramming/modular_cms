@@ -24,8 +24,8 @@ blocks:
         A short timescale to transform the culture of observability in your
         team. No DevOps experience needed.
       cta:
-        text: Blog
-        url: '#'
+        text: Read Blog
+        url: 'https://joyfulprogramming.com'
     image:
       url: >-
         https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/conference-speaker.jpg
