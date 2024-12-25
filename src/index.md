@@ -22,7 +22,7 @@ blocks:
       heading: '4 Hours A Week, 6 Weeks'
       subheading: >-
         A short timescale to transform the culture of observability in your
-        team. No DevOps experience needed.
+        team.No DevOps experience needed.
       cta:
         text: Read Blog
         url: 'https://joyfulprogramming.com'
