@@ -7,6 +7,7 @@ import { FeatureSectionsIcons } from './src/_models/FeatureSectionsIcons';
 import { FeatureSectionsCardList } from './src/_models/FeatureSectionsCardList';
 import { PricingTable } from './src/_models/PricingTable';
 import { FaqSectionsAccordion } from './src/_models/FaqSectionsAccordion';
+import { ContactDefaultForm } from './src/_models/ContactDefaultForm';
 
 export default defineStackbitConfig({
     stackbitVersion: '~0.7.0',
@@ -33,7 +34,8 @@ export default defineStackbitConfig({
                 FeatureSectionsIcons,
                 FeatureSectionsCardList,
                 PricingTable,
-                FaqSectionsAccordion
+                FaqSectionsAccordion,
+                ContactDefaultForm
             ],
             assetsConfig: {
                 referenceType: 'static',
