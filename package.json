@@ -1,5 +1,6 @@
 {
   "name": "modular_cms",
+  "type": "module",
   "license": "MIT",
   "engines": {
     "node": ">=20"

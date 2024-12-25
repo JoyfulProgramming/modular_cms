@@ -1,13 +1,11 @@
+import pluginWebc from "@11ty/eleventy-plugin-webc";
+import MarkdownIt from "markdown-it";
+import DOMPurify from "isomorphic-dompurify";
+import Stripe from 'stripe';
+import fs from 'fs';
+import path from 'path';
 
-const pluginWebc = require("@11ty/eleventy-plugin-webc");
-const MarkdownIt = require("markdown-it");
-const DOMPurify = require("isomorphic-dompurify");
-require('dotenv/config');
-const Stripe = require('stripe');
-const fs = require('fs');
-const path = require('path');
-
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.ignores.add("./README.md");
   eleventyConfig.addWatchTarget(
     "src/_components/**/*.css",
