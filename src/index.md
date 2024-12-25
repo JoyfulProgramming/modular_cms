@@ -230,6 +230,10 @@ blocks:
     heading: Sign Up For Early Access Today
     subheading: The first 20 customers get early access.
     submit_text: Sign Up
+  - type: PricingTable
+    heading: Pricing
+    subheading: Pricing for every team.
+    product_line_id: observability_workshop_1
 layout: page.webc
 type: Page
 ---
